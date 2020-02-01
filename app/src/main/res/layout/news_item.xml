@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list"
+    style="@style/CardView.Light"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_s"
+    android:layout_marginTop="@dimen/margin_s"
+    android:layout_marginEnd="@dimen/margin_s">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/playlist_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_s"
+        android:layout_marginTop="@dimen/margin_s"
+        android:layout_marginEnd="@dimen/margin_s"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="@dimen/cardCornerRadius"
+        app:cardElevation="@dimen/cardElevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/news_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/article_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center_horizontal"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/guardian" />
+
+                <TextView
+                    android:id="@+id/headline_text_view"
+                    style="@style/news_item_style"
+                    android:maxLines="2"
+                    android:text="@string/news_headline"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/article_text"
+                    style="@style/news_item_style"
+                    android:layout_gravity="bottom"
+                    android:maxLines="2"
+                    android:text="@string/news_text"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="@dimen/text_size_s" />
+
+                <TextView
+                    android:id="@+id/author_text_view"
+                    style="@style/news_item_style"
+                    android:layout_gravity="bottom"
+                    android:maxLines="1"
+                    android:layout_marginTop="@dimen/margin_s"
+                    android:text="@string/news_author"
+                    android:textColor="@color/author_text_color"
+                    android:textSize="@dimen/text_size_s" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/article_section"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/appTextColor"
+                android:maxLines="1"
+                android:paddingStart="@dimen/margin_s"
+                android:paddingEnd="@dimen/margin_s"
+                android:paddingBottom="@dimen/margin_s"
+                android:text="@string/article_section" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_section"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/margin_s"
+                android:layout_marginRight="@dimen/margin_s"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/article_date"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="@string/article_time"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_size_xs" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303F9F</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- News Light Text Color -->
+    <color name="appTextColor">@android:color/white</color>
+
+    <!-- Category background Color -->
+    <color name="category_menu_background">#C5CAE9</color>
+
+    <!-- Author Text Color -->
+    <color name="author_text_color">#607D8B</color>
+
+    <!-- App background color -->
+    <color name="legacy_icon_background">#FFFFFF</color>
+</resources>

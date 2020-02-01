@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Best News</string>
+
+    <!-- String names for News Package [CHAR LIMIT=40] -->
+    <string name="news_headline">Headline</string>
+    <string name="news_text">Text of the Article</string>
+    <string name="news_author">Author</string>
+
+    <!-- Category preferences-->
+    <string name="pref_topic_title">Topic</string>
+    <string name="pref_topic_key" translatable="false">topic</string>
+    <string name="category_default">World\'s Best News</string>
+    <string name="category_1_label">Politics</string>
+    <string name="category_2_label">Business</string>
+    <string name="category_3_label">Sport</string>
+    <string name="category_4_label">Technology</string>
+    <string name="category_5_label">Science</string>
+    <string name="category__default_value" translatable="false">section=world</string>
+    <string name="category_1_label_value" translatable="false">tag=us-news/us-politics</string>
+    <string name="category_2_label_value" translatable="false">section=business&amp;editions=us/business</string>
+    <string name="category_3_label_value" translatable="false">section=sport&amp;editions=us/sport</string>
+    <string name="category_4_label_value" translatable="false">section=technology&amp;editions=us/technology</string>
+    <string name="category_5_label_value" translatable="false">section=science</string>
+
+    <!-- Order preferences-->
+    <string name="pref_order_by_title">Order By</string>
+    <string name="pref_order_by_key" translatable="false">order_by</string>
+    <string name="pref_order_by_default">@string/pref_order_by_newest_value</string>
+    <string name="pref_order_by_newest_label">Newest</string>
+    <string name="pref_order_by_oldest_label">Oldest</string>
+    <string name="pref_order_by_relevance_label">Relevance</string>
+    <string name="pref_order_by_newest_value" translatable="false">newest</string>
+    <string name="pref_order_by_oldest_value" translatable="false">oldest</string>
+
+    <string name="pref_order_by_newest_url" translatable="false">&amp;orderBy=newest</string>
+    <string name="pref_order_by_oldest_url" translatable="false">&amp;orderBy=oldest</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Settings [CHAR LIMIT=40] -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!-- List Item specs-->
+    <string name="article_date">Jan, 1 \'01</string>
+    <string name="article_time">00:00</string>
+    <string name="article_section">Tech</string>
+
+    <!-- Message if there is no news to display [CHAR LIMIT=NONE] -->
+    <string name="no_news">No news.</string>
+
+</resources>

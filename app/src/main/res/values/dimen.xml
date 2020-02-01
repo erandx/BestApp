@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height and width of each news item -->
+    <dimen name="list_item_height">200dp</dimen>
+    <dimen name="list_item_details_height">88dp</dimen>
+    <dimen name="list_item_details_activity_height">60dp</dimen>
+
+    <!-- Margins dp-->
+    <dimen name="margin_s">8dp</dimen>
+    <dimen name="margin_m">16dp</dimen>
+
+    <!-- Text Sizes in sp-->
+    <dimen name="text_size_xs">12sp</dimen>
+    <dimen name="text_size_s">14sp</dimen>
+    <dimen name="text_size_m">24sp</dimen>
+    <dimen name="text_size_l">28sp</dimen>
+
+    <!-- Cardview dimensions -->
+    <dimen name="cardCornerRadius">5dp</dimen>
+    <dimen name="cardElevation">5dp</dimen>
+</resources>

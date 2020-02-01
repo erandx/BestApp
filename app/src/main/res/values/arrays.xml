@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_order_by_labels">
+        <item>@string/pref_order_by_newest_label</item>
+        <item>@string/pref_order_by_oldest_label</item>
+    </string-array>
+    <string-array name="pref_order_by_values">
+        <item>@string/pref_order_by_newest_value</item>
+        <item>@string/pref_order_by_oldest_value</item>
+    </string-array>
+    <string-array name="pref_topic_labels">
+        <item>@string/category_default</item>
+        <item>@string/category_1_label</item>
+        <item>@string/category_2_label</item>
+        <item>@string/category_3_label</item>
+        <item>@string/category_4_label</item>
+        <item>@string/category_5_label</item>
+    </string-array>
+    <string-array name="pref_topic_values">
+        <item>@string/category__default_value</item>
+        <item>@string/category_1_label_value</item>
+        <item>@string/category_2_label_value</item>
+        <item>@string/category_3_label_value</item>
+        <item>@string/category_4_label_value</item>
+        <item>@string/category_5_label_value</item>
+    </string-array>
+</resources>
