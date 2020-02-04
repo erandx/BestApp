@@ -5,6 +5,7 @@
 • Designed for API level 15 or better and build with Android Studio.
 
 
+![image](https://github.com/erandx/BestNewsApp/blob/master/Screenshot_1.png)![image](https://github.com/erandx/BestNewsApp/blob/master/Screenshot_2.png)
 
 # Features
 
